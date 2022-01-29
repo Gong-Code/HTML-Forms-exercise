@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cvStyle.css">
+</head>
+<body>
+    <form action="https://formshow.systementor.se/" method="post">
+        <caption><strong><h3>CV uppgifter</h3></strong></caption>
+       <div>
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name" >
+            <label for="mobilnr">Mobiltelefon</label>
+            <input  type="number" name="Mobiltelefon" id="mobilnr" min="0" >
+       </div>
+       <div>
+            <label for="adress">Adress</label>
+            <input type="text" name="Adress" id="adress" >
+            <label for="postnr">Postnummer</label>
+            <input type="number" name="postnr" id="postnr">                       
+       </div>
+       <div>
+            <label for="postort">Postort</label>
+            <input type="text" name="Postort" id="postort">
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email">
+       </div>
+       <div>
+            <p>Beskrivning av utbildningen</p>
+            <textarea name="Text Area" id="" cols="25" rows="5"></textarea>
+       </div>
+       <div>
+        <input type="radio" name="Kan arbeta inom Sverige" id="sverige"> 
+        <label for="sverige">Kan arbeta inom Sverige</label> 
+        <input type="radio" name="Kan arbeta inom EU" id="eu">
+        <label for="eu">Kan arbeta inom EU</label>
+        <input type="radio" name="Endast arbete regionalt" id="regionalt">         
+        <label for="regionalt">Endast arbete inom regionalt</label>
+       </div>
+       <div>
+           <input type="radio" name="Körkort" id="körkort">
+           <label for="körkort">Jag har körkort</label>
+           <input type="radio" name="Tillgång till bil" id="bil">
+           <label for="bil">Jag har tillgång till bil</label>
+       </div>
+       <div>
+           <button type="submit">&#9989; Spara</button>
+           <button type="cancel" >&#10060; Avbryt</button>
+       </div>
+    </form>
+</body>
+</html>
